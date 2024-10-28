@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7E273EE0-DCE3-45F4-A39C-190589CB417B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightPathTracker.Api", "src\FlightPathTracker.Api\FlightPathTracker.Api.csproj", "{F502FEA4-AEE5-4352-96B2-4221107561F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightPathTracker.Application", "src\FlightPathTracker.Application\FlightPathTracker.Application.csproj", "{221522D2-8013-4AFF-9E04-6632D3CD3308}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightPathTracker.Domain", "src\FlightPathTracker.Domain\FlightPathTracker.Domain.csproj", "{94D86A23-1D67-4EF1-9B90-4120E5049102}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightPathTracker.Infrastructure", "src\FlightPathTracker.Infrastructure\FlightPathTracker.Infrastructure.csproj", "{88CD22C7-CD01-4181-8167-3D54053B7448}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7C0BB2B7-FC65-450B-9B20-39C037E98699}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightPathTracker.Tests.Api", "tests\FlightPathTracker.Tests.Api\FlightPathTracker.Tests.Api.csproj", "{DFE86293-1270-4B82-B4AB-3C389DBE4B29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F502FEA4-AEE5-4352-96B2-4221107561F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F502FEA4-AEE5-4352-96B2-4221107561F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F502FEA4-AEE5-4352-96B2-4221107561F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F502FEA4-AEE5-4352-96B2-4221107561F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221522D2-8013-4AFF-9E04-6632D3CD3308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221522D2-8013-4AFF-9E04-6632D3CD3308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221522D2-8013-4AFF-9E04-6632D3CD3308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221522D2-8013-4AFF-9E04-6632D3CD3308}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D86A23-1D67-4EF1-9B90-4120E5049102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D86A23-1D67-4EF1-9B90-4120E5049102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D86A23-1D67-4EF1-9B90-4120E5049102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D86A23-1D67-4EF1-9B90-4120E5049102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88CD22C7-CD01-4181-8167-3D54053B7448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CD22C7-CD01-4181-8167-3D54053B7448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88CD22C7-CD01-4181-8167-3D54053B7448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88CD22C7-CD01-4181-8167-3D54053B7448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFE86293-1270-4B82-B4AB-3C389DBE4B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE86293-1270-4B82-B4AB-3C389DBE4B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE86293-1270-4B82-B4AB-3C389DBE4B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE86293-1270-4B82-B4AB-3C389DBE4B29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F502FEA4-AEE5-4352-96B2-4221107561F3} = {7E273EE0-DCE3-45F4-A39C-190589CB417B}
+		{221522D2-8013-4AFF-9E04-6632D3CD3308} = {7E273EE0-DCE3-45F4-A39C-190589CB417B}
+		{94D86A23-1D67-4EF1-9B90-4120E5049102} = {7E273EE0-DCE3-45F4-A39C-190589CB417B}
+		{88CD22C7-CD01-4181-8167-3D54053B7448} = {7E273EE0-DCE3-45F4-A39C-190589CB417B}
+		{DFE86293-1270-4B82-B4AB-3C389DBE4B29} = {7C0BB2B7-FC65-450B-9B20-39C037E98699}
+	EndGlobalSection
+EndGlobal
