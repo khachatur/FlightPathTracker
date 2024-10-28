@@ -17,7 +17,7 @@ Required JSON structure:
 ## Specifications
 
 - **Port**: The microservice listens on **port 8080**.
-- **Endpoint**: The API exposes the flight path tracker under the `FlightPathTracker/calculate` endpoint.
+- **Endpoint**: The API exposes the flight path tracker under the `/calculate` endpoint.
 
 ## Installation
 
